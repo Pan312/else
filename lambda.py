@@ -2,19 +2,10 @@ double = lambda x: x * 2
 print(double(1))
 
 multiply = lambda x, y: x * y
-print(multiply(1, 2))
+print(multiply(1,2))
 
 add = lambda x, y, z: x + y + z
-print(add(1, 2, 3))
+print(add(1,2,3))
 
-full_name = lambda first_name, last_name: first_name + " " + last_name
-print(full_name("Bro", "Code"))
-
-
-print("Pan")
-<<<<<<< HEAD
-print("Pann")
-
-#hfhffk
-=======
->>>>>>> 03c4aa3 (lambda + Pan)
+full_name = lambda first_name, last_name: first_name+" "+last_name
+print(full_name("Bro","Code"))
